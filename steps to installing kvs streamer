@@ -1,0 +1,20 @@
+- cloned kvs sdk producer from https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp.git
+
+- did this 
+
+"mkdir -p amazon-kinesis-video-streams-producer-sdk-cpp/build
+cd amazon-kinesis-video-streams-producer-sdk-cpp/build "
+
+- ensure you have these libraries "$ sudo apt-get install libssl-dev libcurl4-openssl-dev liblog4cplus-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-base-apps gstreamer1.0-plugins-bad gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly gstreamer1.0-tools
+"
+
+
+follow the kvs video for the most part tbf buuuuuuuuuuuuut ensure you have this downloaded 
+
+"
+ wget https://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.24_amd64.deb
+  146  sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.24_amd64.deb
+"
+
+
+link might change so you should check "https://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/?C=M;O=D" for the new link
